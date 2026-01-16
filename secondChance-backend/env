@@ -1,5 +1,0 @@
-MONGO_URL=mongodb://root:uQrXL87qTLF0evliD2BniKet@172.21.203.127:27017
-JWT_SECRET=setasecret
-
-MONGO_DB=secondChance
-MONGO_COLLECTION=secondChanceItems
