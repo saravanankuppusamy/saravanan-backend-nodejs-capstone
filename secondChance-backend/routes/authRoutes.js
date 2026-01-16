@@ -19,7 +19,7 @@ router.post('/register', async (req, res) => {
       const db = await connectToDatabase();    
       //Task2     
       const collection = db.collection("users");  
-      //Task3      /
+      //Task3      
       const existingEmail = await collection.findOne({ email: req.body.email });
 
         if (existingEmail) {
